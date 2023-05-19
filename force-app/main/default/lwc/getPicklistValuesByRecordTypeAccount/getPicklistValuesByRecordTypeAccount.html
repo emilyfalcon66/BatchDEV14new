@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Account Picklists" icon-name="standard:account">
+        <div class="slds-var-m-around_medium">
+            <lightning-combobox
+                label="Select Type"
+                value={selectedType}
+                options={typeOptions}
+                onchange={changeHandler}>
+            </lightning-combobox>
+            <lightning-combobox
+                label="Select Industry"
+                value={selectedIndustry}
+                options={industryOptions}
+                onchange={changeHandler}>
+            </lightning-combobox>
+            <div class="slds-var-m-around_small slds-text-color_success">
+                Selected Type:
+                <span style="color: darkviolet;">{selectedType}
+                </span><br>
+                Selected Industry:
+                <span style="color: rgb(21, 174, 205);">
+                    {selectedIndustry}
+                </span>
+            </div>
+        </div>
+    </lightning-card>
+</template>

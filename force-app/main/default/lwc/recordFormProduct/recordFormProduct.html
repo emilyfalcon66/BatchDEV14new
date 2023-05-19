@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Ecommerce Product Form" icon-name="standard:product">
+        <div class="slds-var-m-around_medium">
+            <lightning-record-form
+                object-api-name={objectName}
+                record-id={recordId}
+                layout-type="Full"
+                onsuccess={successHandler}
+                columns="2">
+            </lightning-record-form>
+        </div>
+    </lightning-card>
+</template>

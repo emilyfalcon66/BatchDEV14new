@@ -13,7 +13,7 @@ public class RankHandler {
             if(rank<=10){
                 prize= 'Top 10, congrats';
             }else {
-                prize='Thank you fo participation';
+                prize='Thank you for participation';
             }
         }
 
@@ -37,7 +37,7 @@ public class RankHandler {
             
                 prize= 'Top 10, congrats';
             } when else {
-                prize='Thank you fo participation';
+                prize= 'Thank you for participation';
             }
         }
 

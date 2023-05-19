@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Contries"
+    icon-name="custom:custom20">
+    <div class="slds-var-m-around_medium">
+        <template for:each={countries} for:item="Country">
+            <div key={Country}>
+                {Country}
+            </div>
+        </template>
+    </div>
+    </lightning-card>    
+</template>
